@@ -10,24 +10,23 @@ body {
   background-size: cover;
 }
 
-.photo:before {
-  /*left: 100px;
-  top: 50px;*/
-  width: 675px;
-  left: 800px;
-  top: 100px;
+#goldie:before {
   content: url('../img/goldie.png');
   position: relative;
+  top: 125px;
+  left: 50px;
 }
 
-.polaroid {
+.polaroid:before {
   position: absolute;
+  content: url('../img/polaroid.png');
+  top: 20px;
+  left: -50px;
 }
 
-/*.photo:after {
-  content: url('../img/polaroid.png');
-  position: relative;
-}*/
-
-
-/*Pin it onto the board using absolute and relative positioning in tandem. Important: if the window is resized, the whole effect must stay in place! If you’re having trouble, remember: to precisely position an element, both the element itself as well as its direct parent should be considered. The element to be positioned should use absolute positioning, while the direct parent should be set to relative. This is crucial – refer to the homework if you’re still hazy on the concept!*/
+.pin:before {
+  content: url('../img/red-pin.png');
+  position: absolute;
+  top: 20px;
+  left: 300px;
+}
