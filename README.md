@@ -20,7 +20,7 @@ This project was completed during my time at Epicodus, during week one of CSS cl
 
 OR...
 
-* View on gh-pages at [https://github.com/avocadobravado/corkboard](https://github.com/avocadobravado/corkboard)
+* View on gh-pages at [https://avocadobravado.github.io/corkboard](https://avocadobravado.github.io/corkboard)
 
 ## Screenshot of Website
 
